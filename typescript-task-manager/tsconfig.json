@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // Environment Settings
+    "module": "nodenext",
+    "target": "esnext",
+    "lib": ["esnext"],        // ensures modern JS features like Array.find() work
+    "types": ["node"],        // for Node.js type definitions
+
+    // Output Settings
+    "outDir": "./dist",       // optional: compiled JS goes to 'dist' folder
+    "rootDir": "./",          // optional: root of your TS files
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,   // removes all comments in compiled JS
+
+    // Strict Typechecking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Module & JSX
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    
+    // Skip checking libraries
+    "skipLibCheck": true
+  }
+}
