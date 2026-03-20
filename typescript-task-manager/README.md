@@ -13,7 +13,7 @@ The purpose of this project was to practice **TypeScript syntax, strict typing, 
 
 The project helped me understand how TypeScript enforces **type safety** and how it differs from plain JavaScript, as well as how to structure a small Node.js application using TypeScript.  
 
-[Software Demo Video](https://www.youtube.com/watch?v=ef479ImSDSA)
+[Software Demo Video](https://youtu.be/PBcsLTCXc-s)
 
 ---
 
